@@ -31,6 +31,8 @@ export async function GET() {
           } else if (page.cover.type === "file") {
             thumbnail = page.cover.file.url;
           }
+        } else {
+          thumbnail = "logo.png";
         }
 
         const title = props.name?.title?.[0]?.plain_text || "Untitled";
