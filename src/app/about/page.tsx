@@ -47,14 +47,53 @@ export default function About() {
             <h2 className="text-xl md:text-2xl font-semibold mb-4">
               안녕하세요, node.js 기반 풀스택 개발자 오종수 입니다.
             </h2>
-            <p className="text-sm md:text-base text-gray-700 mb-4">
-              웹 개발에 대한 다양한 기술 스택을 활용한 경험을 가지고 있습니다.
-              <br />
-              프론트엔드부터 백엔드까지 전체 개발 과정을 이해하고 구현 합니다.
-            </p>
-            <p className="text-sm md:text-base text-gray-700">
-              나의 재능이 세상에 가장 효율적으로 쓰이기를 바랍니다.
-            </p>
+
+            <div className="bg-white p-5 md:p-6 rounded shadow text-gray-800 space-y-4">
+              <p className="text-sm md:text-base">
+                웹 개발에 대한 다양한 기술 스택을 활용한 경험을 가지고 있습니다.
+              </p>
+
+              <p className="text-sm md:text-base">
+                프론트엔드부터 백엔드까지 전체 개발 과정을 이해하고 구현 합니다.
+              </p>
+            </div>
+          </section>
+
+          <section id="philosophy" className="mb-8 pt-4">
+            <h2 className="text-xl md:text-2xl font-semibold mb-4 tracking-wider">
+              Logos.&nbsp; Idea.&nbsp; Kairos.&nbsp; Arete.
+            </h2>
+
+            <div className="bg-white p-5 md:p-6 rounded shadow text-gray-800 space-y-6">
+              <p className="text-sm md:text-base text-gray-700">
+                LIKA7은 삶의 본질을 탐구하고 완성하는 7가지 기둥으로 이루어져
+                있습니다.
+              </p>
+
+              <div className="space-y-2">
+                <h3 className="font-semibold text-base md:text-lg text-navy">
+                  Logos & Idea
+                </h3>
+                <p className="text-sm md:text-base text-gray-600">
+                  이성과 통찰을 통한 진리 추구
+                </p>
+              </div>
+
+              <div className="space-y-2">
+                <h3 className="font-semibold text-base md:text-lg text-navy">
+                  Kairos & Arete
+                </h3>
+                <p className="text-sm md:text-base text-gray-600">
+                  선택과 수행으로 다듬어지는 자아
+                </p>
+              </div>
+
+              <div className="space-y-2">
+                <h3 className="font-semibold text-base md:text-lg text-navy">
+                  용기, 지혜, 균형
+                </h3>
+              </div>
+            </div>
           </section>
 
           <section id="skills" className="mb-8 pt-4">

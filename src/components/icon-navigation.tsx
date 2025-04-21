@@ -6,6 +6,8 @@ import Link from "next/link";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import Home from "../../public/icons/home.svg";
 import Wrench from "../../public/icons/wrench.svg";
+import LightBulb from "../../public/icons/lightBulb.svg";
+
 import Briefcase from "../../public/icons/briefcase.svg";
 import UserCircle from "../../public/icons/user-circle.svg";
 import Envelope from "../../public/icons/envelope.svg";
@@ -31,6 +33,11 @@ const navItems: NavItem[] = [
     icon: <UserCircle className="w-8 h-8 text-navy group-hover:text-bronze" />,
     label: "소개",
     href: "/about",
+  },
+  {
+    icon: <LightBulb className="w-8 h-8 text-navy group-hover:text-bronze" />,
+    label: "LIKA7 철학",
+    href: "/about#philosophy",
   },
   {
     icon: <Wrench className="w-8 h-8 text-navy group-hover:text-bronze" />,
