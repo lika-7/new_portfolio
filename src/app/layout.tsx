@@ -15,6 +15,9 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "풀스택 개발자 LIKA-7의 포트폴리오",
   description: "프로젝트 포트폴리오",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
